@@ -13,17 +13,17 @@ extern float aspectRatioX;
 
 class Vector2 {
 public:
-	// Componenti del punto nello spazio 2D
+	// Components of a point in the 2D space
 	int x;
 	int y;
 
-	// Costruttore default
+	// Class constructor
 	Vector2() : x(0), y(0) {}
 
-	// Costruttore classe
+	// Class constructor (with x and y passed as parameters)
 	Vector2(int posX, int posY) : x(posX), y(posY) {}
 
-	// Aggiorna i componenti x e y
+	// Update the x and y components
 	void set(int posX, int posY) {
 		x = posX;
 		y = posY;
